@@ -1,0 +1,78 @@
+.main-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+.main-content-heading {
+  text-align: center;
+  font-weight: bold;
+  font-size: 16px;
+  font-family: Roboto;
+}
+
+.ip-container{
+  display: flex;
+}
+
+.ip-email,
+.ip-password {
+  display: flex;
+  flex:1;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid rgb(194, 192, 192);
+}
+
+.btn-google,.btn-signup {
+  display: flex;
+  align-items: center;       
+  justify-content: center;   
+  gap: 8px;                  
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid rgb(194, 192, 192);
+  background-color: white;
+  cursor: pointer;
+}
+
+.img-google{
+  width:5%;
+}
+
+.center-main-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.email,
+.password {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.form-content {
+  line-height: 20px;
+  margin-bottom: 20px;
+}
+
+.btn-signup{
+  background-color: rgb(199, 198, 198);
+  color: white;
+}
+
+.main-content-footer{
+  font-size: 12px;
+  text-align: center;
+  color:rgb(96,96,96);
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}

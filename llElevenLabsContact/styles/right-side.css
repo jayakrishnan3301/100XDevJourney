@@ -1,0 +1,79 @@
+.right-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+.center-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.center-info-container{
+  justify-content: space-around;
+}
+
+.title-info{
+  font-size:40px;
+  color: black;
+  margin-bottom: 10px;
+}
+
+.subtitle-info{
+  color: rgb(182, 170, 170);
+  margin-bottom: 30px;
+}
+
+.signup-content{
+  display: flex;
+  flex-direction: column;
+}
+
+.title-companyname{
+  color:black;
+  font-size:14px;
+  line-height: 30px;
+}
+
+.inp-text{
+  border:1px solid rgb(198, 198, 198);
+  padding:10px 15px;
+  border-radius: 10px;
+}
+
+.bottom-info-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+
+}
+
+.btn-next{
+  padding:10px 15px;
+  border:none;
+  border-radius: 30px;
+  color:white;
+  background-color: black;
+}
+
+.line-container{
+  display: flex;
+  gap: 10px;
+}
+
+.line-1{
+  background-color: black;
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 20px;
+}
+
+.line-2,.line-3{
+  background-color: grey;
+  border: 2px solid gray;
+  border-radius: 10px;
+  width: 20px;
+}

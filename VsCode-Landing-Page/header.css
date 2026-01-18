@@ -1,0 +1,74 @@
+.header-container-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 55px;
+  background-color: black;
+}
+
+.header-container-bottom{
+  text-align: center;
+  color:rgb(95, 95, 95);
+  background-color: black;
+  padding-bottom: 10px;
+}
+
+.hyper-link{
+  color:rgb(0, 115, 255);
+  cursor: pointer;
+}
+
+.header-icon{
+  width:30px;
+}
+
+.vs-code-icon{
+  width: 100%;
+}
+
+.header-icon-title{
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+}
+
+.title{
+  color:rgb(95, 95, 95);
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.title:hover{
+  color:white
+}
+
+.left-header-section {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex: 1;
+  max-height: 100%;
+  padding: 10px;
+}
+
+.right-header-section {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.btn-download {
+  padding: 10px 20px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(0, 140, 255);
+  color: white;
+}
+
+.ip-search {
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding: 10px 15px;
+  background-color: black;
+}
