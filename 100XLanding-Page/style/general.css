@@ -1,0 +1,9 @@
+body{
+  margin: 0px;
+  font-family: Roboto,Arial;
+  background-color: lightgray;
+}
+
+*:focus {
+    outline: none;
+}

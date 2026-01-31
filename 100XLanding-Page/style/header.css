@@ -1,0 +1,98 @@
+.header-container,
+.left-header-container,
+.right-header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.left-header-container{
+  gap:30px;
+}
+
+
+.right-header-container{
+  gap:8px;
+}
+
+.left-button-container{
+  display: flex;
+  cursor: pointer;
+  gap:30px;
+  color: rgb(21, 29, 112)
+}
+
+.home-button,.course-button,.store-button{
+   transition: opacity 0.2s;
+}
+
+.home-button:hover,.course-button:hover,.store-button:hover{
+  opacity: 0.8;
+}
+
+.header-container {
+  background-color: white;
+  height: 55px;
+  font-size: 14px;
+}
+
+.right-button-container {
+  display: flex;
+  gap: 8px;
+}
+
+.search-input{
+  border: none;
+  vertical-align: top;
+  margin-left: 3px;
+}
+
+.search-container{
+  padding: 5px 12px;
+  border-radius: 5px;
+  border:1px solid lightgrey;
+}
+
+.search-container:focus-within{
+  box-shadow: 0px 0px 0px 3px grey;
+}
+
+.btn-signup,.btn-login{
+  padding: 7px 15px;
+  border-radius: 7px;
+  border:1px solid grey;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.btn-signup{
+  background-color: white;
+  color: rgb(21, 29, 112);
+  transition: background-color 0.2s;
+}
+
+.btn-login{
+  background-color:  rgb(21, 29, 112);
+  color:white;
+  border: none;
+  transition: opacity 0.2s;
+}
+
+.btn-signup:hover{
+  background-color: lightgray;
+}
+
+.btn-login:hover{
+  opacity: 0.9;
+}
+
+.logo-content{
+  font-size: 17px;
+  font-weight: bold;
+  color:rgb(21, 29, 112);
+}
+
+.symbol-x{
+  color:red;
+  font-size: 14px;
+}
